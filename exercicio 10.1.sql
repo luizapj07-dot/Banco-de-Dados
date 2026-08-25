@@ -72,3 +72,4 @@ values ('Fernanda Lima', '777.777.777-77', '48991231231')
 
 insert into `projeto`(`nome`, `descricao`,`preco`,`dtFim`, `dtEstimada`, `dtSolicitacao`,`cpfGerente`,`cpfCliente`)
 values ('Controle de Estoque', 'Sistema para loja de roupas', '8000', '2025-12-20', '2025-12-05', '2025-09-25', '444.444.444-44', '777.777.777-77')
+ -- 
