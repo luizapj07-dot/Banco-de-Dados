@@ -33,43 +33,43 @@ values ('Aplicativo Financeiro', 'Gestão de despesas pessoais', '12000', '2025-
 insert into `projEmp`(`codProj`, `cpfEmpregado`, `hrTrab`)
 values ('1', '333.333.333-33', '40')
 
---8
+-- 8
 
 insert into `projEmp`(`codProj`, `cpfEmpregado`, `hrTrab`)
 values ('1', '444.444.444-44', '20')
 
---9
+-- 9
 
 insert into `projEmp`(`codProj`, `cpfEmpregado`, `hrTrab`)
 values ('2', '333.333.333-33', '35')
 
--- 10
+--  10
 
 insert into `cliente`(`nome`, `cpf`, `telefone`)
 values ('Pedro Gomes', '555.555.555-55', '48999887766')
 
---11
+-- 11
 
 insert into `empregado`(`nome`, `cpf`, `cargo`)
 values ('Lucas Andrade', '666.666.666-66', 'Desenvolvedor Backend')
 
---12
+-- 12
 
 insert into `projeto`(`nome`, `descricao`,`preco`,`dtFim`, `dtEstimada`, `dtSolicitacao`,`cpfGerente`,`cpfCliente`)
 values ('Site Institucional', 'Página para empresa local', '5000', '2025-11-01', '2025-10-25', '2025-09-20', '444.444.444-44', '555.555.555-55')
 
---13
+-- 13
 
 insert into `projEmp`(`codProj`, `cpfEmpregado`, `hrTrab`)
 values ('3', '666.666.666-66', '50')
 
---14
+-- 14
 
 insert into `cliente`(`nome`, `cpf`, `telefone`)
 values ('Fernanda Lima', '777.777.777-77', '48991231231')
 
---15
+-- 15
 
 insert into `projeto`(`nome`, `descricao`,`preco`,`dtFim`, `dtEstimada`, `dtSolicitacao`,`cpfGerente`,`cpfCliente`)
 values ('Controle de Estoque', 'Sistema para loja de roupas', '8000', '2025-12-20', '2025-12-05', '2025-09-25', '444.444.444-44', '777.777.777-77')
- -- 
+ 
