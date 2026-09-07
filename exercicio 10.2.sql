@@ -11,6 +11,10 @@ where `cpf` = '333.333.333-33';
 
 -- 3
 
+UPDATE `projeto`
+SET `cpfCliente` = '111.111.111-11'
+WHERE `preco` = '5000';
+
 delete from `cliente`
 where `cpf` = '555.555.555-55';
 
@@ -18,7 +22,7 @@ where `cpf` = '555.555.555-55';
 
 UPDATE `projeto`
 SET `preco` = `preco` * 1.10
-WHERE `preco` > 1000
+WHERE `cpfGerente` = '444.444.444-44';
 
 -- 5
 
@@ -29,12 +33,14 @@ AND `codProj` = '2';
 -- 6
 
 UPDATE `projeto`
-SET `descricao` = 'PROJETO LEGADO - descricao'
-WHERE `dtSolicitacao` BETWEEN '2025-09-10' AND '2025-09-12' 
+SET `descricao` = CONCAT('PROJETO LEGADO - ', `descricao`)
+WHERE `dtSolicitacao` < '2025-09-15';
+
 
 -- 7
 
 UPDATE `projEmp`
 SET `hrTrab` = `hrTrab` + 15
 WHERE `codProj` = '3'
+
 
