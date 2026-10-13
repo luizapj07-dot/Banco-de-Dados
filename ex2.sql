@@ -26,3 +26,6 @@ CREATE TABLE `musica_compositor` (
 `id_musica`),
  FOREIGN KEY (`cpf_compositor`) REFERENCES `compositor`(`cpf`),
  FOREIGN KEY (`id_musica`) REFERENCES `musica` (`id`));
+
+
+ 
